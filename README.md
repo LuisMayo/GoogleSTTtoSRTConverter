@@ -1,2 +1,2 @@
-# AudioSubGenerator
-Subtitles Generator in format SRT for a piece of Audio using Google Cloud's Speech-To-Text technology
+# GoogleSTTtoSRTConverter
+Converts the response from Google Cloud's Speech to text service into SRT format
