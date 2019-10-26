@@ -19,7 +19,7 @@ function convertGSTTToSRT(string) {
 }
 
 function formatTime(time) {
-    return String(time.hours).padStart(2, '0') + String(time.minutes).padStart(2, '0') + ':' + String(time.seconds).padStart(2, '0') + ',000';
+    return String(time.hours).padStart(2, '0')+ ':' + String(time.minutes).padStart(2, '0') + ':' + String(time.seconds).padStart(2, '0') + ',000';
 }
 
 function convertSecondStringToRealtime(string) {
