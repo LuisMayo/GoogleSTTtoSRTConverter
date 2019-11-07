@@ -1,6 +1,6 @@
 {
   "name": "gstt-to-srt-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts the response from Google Cloud's Speech to text service into SRT format",
   "main": "convertGSTTToSRT.js",
   "scripts": {
@@ -11,10 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/LuisMayo/GoogleSTTtoSRTConverter"
   },
-
   "keywords": [],
   "author": "",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/LuisMayo/GoogleSTTtoSRTConverter/issues"
