@@ -1,0 +1,961 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "transcript": "Birch canoes slid on the smooth planks.",
+                    "confidence": 0.7248232960700989,
+                    "words": [
+                        {
+                            "startTime": {
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "nanos": 900000000
+                            },
+                            "word": "Birch"
+                        },
+                        {
+                            "startTime": {
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "1",
+                                "nanos": 500000000
+                            },
+                            "word": "canoes"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "1",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "1",
+                                "nanos": 900000000
+                            },
+                            "word": "slid"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "1",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "2"
+                            },
+                            "word": "on"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "2"
+                            },
+                            "endTime": {
+                                "seconds": "2",
+                                "nanos": 200000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "2",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "2",
+                                "nanos": 600000000
+                            },
+                            "word": "smooth"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "2",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "3"
+                            },
+                            "word": "planks."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " blue the seed to the dark blue background",
+                    "confidence": 0.6842671632766724,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "3",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "4",
+                                "nanos": 500000000
+                            },
+                            "word": "blue"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "4",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "4",
+                                "nanos": 800000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "4",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "5",
+                                "nanos": 100000000
+                            },
+                            "word": "seed"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "5",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "5",
+                                "nanos": 200000000
+                            },
+                            "word": "to"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "5",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "5",
+                                "nanos": 300000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "5",
+                                "nanos": 300000000
+                            },
+                            "endTime": {
+                                "seconds": "5",
+                                "nanos": 600000000
+                            },
+                            "word": "dark"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "5",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "5",
+                                "nanos": 800000000
+                            },
+                            "word": "blue"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "5",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "6",
+                                "nanos": 500000000
+                            },
+                            "word": "background"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " it is easy to tell the death of a well.",
+                    "confidence": 0.7304701209068298,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "7",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "8"
+                            },
+                            "word": "it"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8"
+                            },
+                            "endTime": {
+                                "seconds": "8",
+                                "nanos": 100000000
+                            },
+                            "word": "is"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "8",
+                                "nanos": 300000000
+                            },
+                            "word": "easy"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8",
+                                "nanos": 300000000
+                            },
+                            "endTime": {
+                                "seconds": "8",
+                                "nanos": 400000000
+                            },
+                            "word": "to"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "8",
+                                "nanos": 700000000
+                            },
+                            "word": "tell"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8",
+                                "nanos": 700000000
+                            },
+                            "endTime": {
+                                "seconds": "8",
+                                "nanos": 800000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "8",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "9"
+                            },
+                            "word": "death"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "9"
+                            },
+                            "endTime": {
+                                "seconds": "9",
+                                "nanos": 100000000
+                            },
+                            "word": "of"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "9",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "9",
+                                "nanos": 400000000
+                            },
+                            "word": "a"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "9",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "9",
+                                "nanos": 600000000
+                            },
+                            "word": "well."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " These days a chicken leg is a verb dish.",
+                    "confidence": 0.643702507019043,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "10",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "11",
+                                "nanos": 100000000
+                            },
+                            "word": "These"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "11",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "11",
+                                "nanos": 200000000
+                            },
+                            "word": "days"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "11",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "11",
+                                "nanos": 500000000
+                            },
+                            "word": "a"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "11",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "11",
+                                "nanos": 800000000
+                            },
+                            "word": "chicken"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "11",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "12"
+                            },
+                            "word": "leg"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "12"
+                            },
+                            "endTime": {
+                                "seconds": "12",
+                                "nanos": 100000000
+                            },
+                            "word": "is"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "12",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "12",
+                                "nanos": 200000000
+                            },
+                            "word": "a"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "12",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "12",
+                                "nanos": 400000000
+                            },
+                            "word": "verb"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "12",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "12",
+                                "nanos": 700000000
+                            },
+                            "word": "dish."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " Rice is often served in round bowls.",
+                    "confidence": 0.6917691826820374,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "14"
+                            },
+                            "endTime": {
+                                "seconds": "14",
+                                "nanos": 400000000
+                            },
+                            "word": "Rice"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "14",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "14",
+                                "nanos": 700000000
+                            },
+                            "word": "is"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "14",
+                                "nanos": 700000000
+                            },
+                            "endTime": {
+                                "seconds": "15"
+                            },
+                            "word": "often"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "15"
+                            },
+                            "endTime": {
+                                "seconds": "15",
+                                "nanos": 100000000
+                            },
+                            "word": "served"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "15",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "15",
+                                "nanos": 500000000
+                            },
+                            "word": "in"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "15",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "15",
+                                "nanos": 800000000
+                            },
+                            "word": "round"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "15",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "16",
+                                "nanos": 200000000
+                            },
+                            "word": "bowls."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " Did use of lemon snakes find punch.",
+                    "confidence": 0.7097947597503662,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "17",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "17",
+                                "nanos": 500000000
+                            },
+                            "word": "Did"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "17",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "17",
+                                "nanos": 800000000
+                            },
+                            "word": "use"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "17",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "17",
+                                "nanos": 900000000
+                            },
+                            "word": "of"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "17",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "18",
+                                "nanos": 200000000
+                            },
+                            "word": "lemon"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "18",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "18",
+                                "nanos": 400000000
+                            },
+                            "word": "snakes"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "18",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "19"
+                            },
+                            "word": "find"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "19"
+                            },
+                            "endTime": {
+                                "seconds": "19",
+                                "nanos": 300000000
+                            },
+                            "word": "punch."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " The box was the one beside the punk truck.",
+                    "confidence": 0.6198154091835022,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "20",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "20",
+                                "nanos": 600000000
+                            },
+                            "word": "The"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "20",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "20",
+                                "nanos": 900000000
+                            },
+                            "word": "box"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "20",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "21"
+                            },
+                            "word": "was"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "21"
+                            },
+                            "endTime": {
+                                "seconds": "21",
+                                "nanos": 200000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "21",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "21",
+                                "nanos": 400000000
+                            },
+                            "word": "one"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "21",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "21",
+                                "nanos": 600000000
+                            },
+                            "word": "beside"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "21",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "21",
+                                "nanos": 800000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "21",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "22",
+                                "nanos": 100000000
+                            },
+                            "word": "punk"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "22",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "22",
+                                "nanos": 300000000
+                            },
+                            "word": "truck."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " the Hogs of food shop corn and garbage",
+                    "confidence": 0.6382935643196106,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "23",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "23",
+                                "nanos": 900000000
+                            },
+                            "word": "the"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "23",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "24",
+                                "nanos": 200000000
+                            },
+                            "word": "Hogs"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "24",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "24",
+                                "nanos": 300000000
+                            },
+                            "word": "of"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "24",
+                                "nanos": 300000000
+                            },
+                            "endTime": {
+                                "seconds": "24",
+                                "nanos": 500000000
+                            },
+                            "word": "food"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "24",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "24",
+                                "nanos": 900000000
+                            },
+                            "word": "shop"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "24",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "25",
+                                "nanos": 200000000
+                            },
+                            "word": "corn"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "25",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "25",
+                                "nanos": 400000000
+                            },
+                            "word": "and"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "25",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "25",
+                                "nanos": 700000000
+                            },
+                            "word": "garbage"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " 4 hours of study work fastest",
+                    "confidence": 0.7084195613861084,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "26",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "27",
+                                "nanos": 300000000
+                            },
+                            "word": "4"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "27",
+                                "nanos": 300000000
+                            },
+                            "endTime": {
+                                "seconds": "27",
+                                "nanos": 600000000
+                            },
+                            "word": "hours"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "27",
+                                "nanos": 600000000
+                            },
+                            "endTime": {
+                                "seconds": "27",
+                                "nanos": 800000000
+                            },
+                            "word": "of"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "27",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "28"
+                            },
+                            "word": "study"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "28"
+                            },
+                            "endTime": {
+                                "seconds": "28",
+                                "nanos": 200000000
+                            },
+                            "word": "work"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "28",
+                                "nanos": 200000000
+                            },
+                            "endTime": {
+                                "seconds": "28",
+                                "nanos": 800000000
+                            },
+                            "word": "fastest"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " a large size in stockings is hard to sell.",
+                    "confidence": 0.8101642727851868,
+                    "words": [
+                        {
+                            "startTime": {
+                                "seconds": "29",
+                                "nanos": 800000000
+                            },
+                            "endTime": {
+                                "seconds": "30",
+                                "nanos": 100000000
+                            },
+                            "word": "a"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "30",
+                                "nanos": 100000000
+                            },
+                            "endTime": {
+                                "seconds": "30",
+                                "nanos": 400000000
+                            },
+                            "word": "large"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "30",
+                                "nanos": 400000000
+                            },
+                            "endTime": {
+                                "seconds": "30",
+                                "nanos": 500000000
+                            },
+                            "word": "size"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "30",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "30",
+                                "nanos": 900000000
+                            },
+                            "word": "in"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "30",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "31"
+                            },
+                            "word": "stockings"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "31"
+                            },
+                            "endTime": {
+                                "seconds": "31",
+                                "nanos": 500000000
+                            },
+                            "word": "is"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "31",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "31",
+                                "nanos": 500000000
+                            },
+                            "word": "hard"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "31",
+                                "nanos": 500000000
+                            },
+                            "endTime": {
+                                "seconds": "31",
+                                "nanos": 900000000
+                            },
+                            "word": "to"
+                        },
+                        {
+                            "startTime": {
+                                "seconds": "31",
+                                "nanos": 900000000
+                            },
+                            "endTime": {
+                                "seconds": "32",
+                                "nanos": 100000000
+                            },
+                            "word": "sell."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
