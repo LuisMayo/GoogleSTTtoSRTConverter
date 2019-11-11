@@ -40,11 +40,18 @@ export function convertGSTTToSRT(string: string) {
         return false
     }
 
+    const colors = ['red', 'deeppink', 'lightgreen', 'orange', 'blue', 'purple', 'fuchsia'];
+
 
     var obj = JSON.parse(string);
     var i = 1;
     var result = '';
-    const array = obj.response ? obj.response.results : obj.results; // The object can be the full response or the response object
+    let diarization = false;
+    const array: any[] = obj.response ? obj.response.results : obj.results; // The object can be the full response or the response object
+    if (array[array.length - 1].alternatives[0].words[0].speakerTag != null) {
+        array.splice(0, (array.length - 1)  / 2);
+        diarization = true;
+    }
     for (const line of array) {
         result += i++;
         result += '\n';
@@ -54,7 +61,11 @@ export function convertGSTTToSRT(string: string) {
         var word = line.alternatives[0].words[line.alternatives[0].words.length - 1];
         time = new hourRepresentation(word.endTime);
         result += time.toString() + '\n';
-        result += line.alternatives[0].transcript + '\n\n';
+        if (diarization) {
+            result += `<font color="${colors[word.speakerTag - 1]}">` +line.alternatives[0].transcript + '</font>\n\n';
+        } else {
+            result += line.alternatives[0].transcript + '\n\n';   
+        }
     }
     return result;
 }
