@@ -1,11 +1,19 @@
+import { convertGSTTToSRT } from "../lib/convertGSTTToSRT";
+import { expect } from "chai";
+import * as fs from 'fs';
+
 describe('convertTest', function() {
-  it('convertv1', function() {
-    let result = convertGSTTToSRT(getv1FullMock());
-    expect(result).equal(null);
+  it('convertv2Trimmed', function() {
+    let result = convertGSTTToSRT(getv2TrimmedMock());
+    expect(result).equal(getv2TrimmedResponse());
   });
 });
 
 
-function getv1FullMock() {
-    return JSON.stringify(require('../mocks/v2Trimmed.json'));
+function getv2TrimmedMock() {
+    return fs.readFileSync('./mocks/v2Trimed.json', {encoding: 'UTF-8'});
+}
+
+function getv2TrimmedResponse() {
+    return fs.readFileSync('./mocks/v2Trimed.response.txt', {encoding: 'UTF-8'});
 }
