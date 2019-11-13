@@ -34,10 +34,7 @@ export function convertGSTTToSRT(string: string) {
     }
 
     function determineIfv2(toBeDetermined: string | speechV2TimeRepresentation): toBeDetermined is speechV2TimeRepresentation {
-        if ((toBeDetermined as speechV2TimeRepresentation).seconds || (toBeDetermined as speechV2TimeRepresentation).nanos) {
-            return true
-        }
-        return false
+        return typeof toBeDetermined === 'object';
     }
 
 
