@@ -6,7 +6,7 @@ export class hourRepresentation {
     constructor(input: string | speechV2TimeRepresentation) {
         let seconds, nanos: string;
         if (determineIfv2(input)) {
-            seconds = input.seconds;
+                seconds = input.seconds || '0';
             this.nanos = input.nanos ? String(input.nanos) : '000';
         } else {
             seconds = input.substring(0, input.length - 1);
@@ -21,7 +21,7 @@ export class hourRepresentation {
     toString() {
         return String(this.hours).padStart(2, '0') + ':'
             + String(this.minutes).padStart(2, '0') + ':'
-            + String(this.seconds).padStart(2, '0')
+            + String(this.seconds).padStart(2, '0') + ','
             + this.nanos.substr(0, 3);
     }
 
@@ -33,7 +33,7 @@ type speechV2TimeRepresentation = {
 }
 
 export function determineIfv2(toBeDetermined: string | speechV2TimeRepresentation): toBeDetermined is speechV2TimeRepresentation {
-    if ((toBeDetermined as speechV2TimeRepresentation).seconds) {
+        if ((toBeDetermined as speechV2TimeRepresentation).seconds || (toBeDetermined as speechV2TimeRepresentation).nanos) {
         return true
     }
     return false
