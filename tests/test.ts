@@ -23,5 +23,5 @@ function getv2TrimmedMock() {
 }
 
 function getResponse() {
-    return fs.readFileSync('./mocks/v2Trimed.response.txt', { encoding: 'UTF-8' });
+    return fs.readFileSync('./mocks/response.txt', { encoding: 'UTF-8' });
 }
