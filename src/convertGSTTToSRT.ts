@@ -1,44 +1,45 @@
-export function convertGSTTToSRT(string: string) {
-    class hourRepresentation {
-        private hours: number;
-        private minutes: number;
-        private seconds: number;
-        private nanos: string; // nanoSeconds are beter as string since we do not opperate with them,
-        constructor(input: string | speechV2TimeRepresentation) {
-            let seconds, nanos: string;
-            if (determineIfv2(input)) {
-                seconds = input.seconds;
-                this.nanos = input.nanos ? String(input.nanos) : '000';
-            } else {
-                seconds = input.substring(0, input.length - 1);
-                this.nanos = '000'; // servide doesn't return nanoseconds on v1
-            }
-            this.seconds = +seconds;
-            this.hours = Math.floor(this.seconds / 3600);
-            this.minutes = Math.floor(this.seconds % 3600 / 60);
-            this.seconds = Math.floor(this.seconds % 3600 % 60);
+export class hourRepresentation {
+    private hours: number;
+    private minutes: number;
+    private seconds: number;
+    private nanos: string; // nanoSeconds are beter as string since we do not opperate with them,
+    constructor(input: string | speechV2TimeRepresentation) {
+        let seconds, nanos: string;
+        if (determineIfv2(input)) {
+            seconds = input.seconds;
+            this.nanos = input.nanos ? String(input.nanos) : '000';
+        } else {
+            seconds = input.substring(0, input.length - 1);
+            this.nanos = '000'; // servide doesn't return nanoseconds on v1
         }
-    
-        toString() {
-            return String(this.hours).padStart(2, '0') + ':'
+        this.seconds = +seconds;
+        this.hours = Math.floor(this.seconds / 3600);
+        this.minutes = Math.floor(this.seconds % 3600 / 60);
+        this.seconds = Math.floor(this.seconds % 3600 % 60);
+    }
+
+    toString() {
+        return String(this.hours).padStart(2, '0') + ':'
             + String(this.minutes).padStart(2, '0') + ':'
             + String(this.seconds).padStart(2, '0')
-            + this.nanos.substr(0,3);
-        }
-    
+            + this.nanos.substr(0, 3);
     }
-    
-    type speechV2TimeRepresentation = {
-        seconds: string;
-        nanos?: string;
+
+}
+
+type speechV2TimeRepresentation = {
+    seconds?: string;
+    nanos?: string;
+}
+
+export function determineIfv2(toBeDetermined: string | speechV2TimeRepresentation): toBeDetermined is speechV2TimeRepresentation {
+    if ((toBeDetermined as speechV2TimeRepresentation).seconds) {
+        return true
     }
-    
-    function determineIfv2(toBeDetermined: string | speechV2TimeRepresentation): toBeDetermined is speechV2TimeRepresentation {
-        if ((toBeDetermined as speechV2TimeRepresentation).seconds) {
-            return true
-        }
-        return false
-    }
+    return false
+}
+
+export function convertGSTTToSRT(string: string) {
 
 
     var obj = JSON.parse(string);
