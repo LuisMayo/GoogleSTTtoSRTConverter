@@ -1,6 +1,6 @@
 {
   "name": "gstt-to-srt-converter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Converts the response from Google Cloud's Speech to text service into SRT format",
   "main": "lib/convertGSTTToSRT.js",
   "scripts": {
